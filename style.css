@@ -1,0 +1,132 @@
+body, html {
+    height: 100%
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+.heroImage {
+    background-image: url(img/catholic-church-exterior.jpeg);
+    min-height: 500px;
+    max-height: 1000px;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0px;
+}
+
+.sectionImage1 {
+    background-image: url(img/stained-glass-window-vatican.jpg);
+    min-height: 250px;
+    max-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.7;
+    margin: 0px;
+}
+
+.sectionImage2 {
+    background-image: url(img/mass.jpeg);
+    min-height: 250px;
+    max-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.7;
+    margin: 0px;
+}
+
+.green {
+    background-color: #005826;
+    margin: 0px;
+}
+
+.gray {
+    background-color: #f2f2f2;
+    margin: 0px;
+}
+
+.textLight {
+    color: #f6f6f6;
+    margin: 0px;
+}
+
+.textDark {
+    color: #595959;
+    margin: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.sectionText {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #f6f6f6;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.sectionText .border p {
+    border: solid 2px #f6f6f6;
+}
+
+#centered p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#centerText {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#emailField {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#email {
+    padding-left: 15px;
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.footerContainer {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.footerContainer p {
+    text-align: center;
+}
+
+#social {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fa {
+    color: #f6f6f6;
+    padding-right: 15px;
+}
